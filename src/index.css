@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1160px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+button {
+  outline: none;
+  border: none;
+  background: transparent;
+  display: inline-block;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+body {
+  font-family: "Inter", sans-serif;
+  background: #EBE4D6;
+}
+.font-aa{
+  font-family: "Abril Fatface", serif;
+}
+.all-sections{
+  padding: 100px 0;
+}
+/* ====background animation css========== */
+
+/* =========scroll bar======== */
+html::-webkit-scrollbar {
+  width: 8px;
+  border: none;
+}
+
+html::-webkit-scrollbar-track {
+  /* border-radius: 20px; */
+  background-color: #EBE4D6;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: linear-gradient(94.58deg, #886e18 0%, #FFD13B 100%);
+  border-radius: 20px;
+  overflow: hidden;
+  height: 100px;
+}
+
+html::-webkit-scrollbar-corner {
+  background: transparent;
+}
+/* =========text animation===========  */
+
+textarea {
+  resize: none; 
+}
+
+li .active{
+  color: #cea520;
+}
+.bg-aksdjf{
+  background-image: url("./assets/img/home-page-banner.png");
+}
+
+
+.footerLink-HoverEffect{
+  transition: all 0.2s ease-in;
+  position: relative;
+}
+
+.footerLink-HoverEffect:hover{
+  color: black;
+}
+.footerLink-HoverEffect::before{
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+  content: "";
+  width: 0;
+  height: 1px;
+  background-color: black; 
+  display: inline-block;
+  transition: all 0.2s ease-in;
+}
+
+.footerLink-HoverEffect:hover::before{
+  width: 100%;
+}
+
+
+
+
+
+@media (max-width: 1024px) {
+  .all-sections {
+    padding: 80px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .all-sections {
+    padding: 60px 0;
+  }
+}

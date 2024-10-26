@@ -1,0 +1,69 @@
+[
+  {
+    "heading": "Quick Links",
+    "contents": [
+      {
+        "name": "Home",
+        "link": "/",
+        "type": "Link"
+      },
+      {
+        "name": "Products",
+        "link": "/",
+        "type": "Link"
+      },
+      {
+        "name": "About Us",
+        "link": "/aboutUS",
+        "type": "Link"
+      },
+      {
+        "name": "Inventory",
+        "link": "/inverntory",
+        "type": "Link"
+      },
+      {
+        "name": "Contact Us",
+        "link": "/contact",
+        "type": "Link"
+      }
+    ]
+  },
+  {
+    "heading": "Contact Information",
+    "contents": [
+      {
+        "name": "+123-456-7890",
+        "link": "tel:+1234567890",
+        "type": "a"
+      },
+      {
+        "name": "info@cocopeat.com",
+        "link": "mailto:info@cocopeat.com",
+        "type": "a"
+      },
+      {
+        "name": "123 Greenfield Avenue, Eco City, Country",
+        "link": "https://www.google.com/maps/place/123+Greenfield+Avenue,+Eco+City,+Country",
+        "type": "a"
+      }
+    ]
+  },
+  {
+    "heading": "Business Hours",
+    "contents": [
+      {
+        "name": "Monday - Friday: 9:00 AM - 6:00 PM",
+        "type": "p"
+      },
+      {
+        "name": "Saturday: 10:00 AM - 4:00 PM",
+        "type": "p"
+      },
+      {
+        "name": "Sunday: Closed",
+        "type": "p"
+      }
+    ]
+  }
+]

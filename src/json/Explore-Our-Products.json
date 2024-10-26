@@ -1,0 +1,45 @@
+{
+    "btns":[
+        {
+            "name":"Cocopeat Block"
+        },
+        {
+            "name":"Cocopeat Loose"
+        },
+        {
+            "name":"Neem Plus"
+        }
+    ],
+    "cards":[
+        {
+            "img":"cocopeat-card-img.png",
+            "name":"BriGreenery Cocopeat 5kg Block",
+            "btn":"Contact Us to Order"
+        },
+        {
+            "img":"cocopeat-card-img.png",
+            "name":"BriGreenery Cocopeat 5kg Block",
+            "btn":"Contact Us to Order"
+        },
+        {
+            "img":"cocopeat-card-img.png",
+            "name":"BriGreenery Cocopeat 5kg Block",
+            "btn":"Contact Us to Order"
+        },
+        {
+            "img":"cocopeat-card-img.png",
+            "name":"BriGreenery Cocopeat 5kg Block",
+            "btn":"Contact Us to Order"
+        },
+        {
+            "img":"cocopeat-card-img.png",
+            "name":"BriGreenery Cocopeat 5kg Block",
+            "btn":"Contact Us to Order"
+        },
+        {
+            "img":"cocopeat-card-img.png",
+            "name":"BriGreenery Cocopeat 5kg Block",
+            "btn":"Contact Us to Order"
+        }
+    ]
+}

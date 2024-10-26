@@ -1,0 +1,26 @@
+[
+    {
+        "id":"1",
+        "title":"100% Natural and Sustainable",
+        "description":"Our products are made from eco-friendly, renewable coconut husk fibers. By choosing Coco-Peat, you’re supporting sustainable agriculture and reducing waste.",
+        "image":"whyChooseUs-img1.png"
+    },
+    {
+        "id":"2",
+        "title":"Soil Health Enhancement",
+        "description":"Our cocopeat products improve soil structure, aeration, and nutrient absorption, promoting healthier root growth and stronger plants.",
+        "image":"whyChooseUs-img2.png"
+    },
+    {
+        "id":"3",
+        "title":"Natural Pest Control",
+        "description":"With our Neem Plus product, you get the added benefit of neem’s natural pest-repelling properties, making it ideal for organic farming and eco-conscious gardeners.",
+        "image":"whyChooseUs-img3.png"
+    },
+    {
+        "id":"4",
+        "title":"Superior Water Retention",
+        "description":"Cocopeat retains up to 10 times its weight in water, ensuring your plants get the hydration they need while conserving water—a perfect choice for drought-prone areas.",
+        "image":"whyChooseUs-img4.png"
+    }
+]
