@@ -1,10 +1,11 @@
 import React from 'react'
+import AllBanners from '../snippets/AllBanners'
 
 function Contact() {
   return (
-    <div>
-      Contact
-    </div>
+    <section>
+      <AllBanners name="Contact Us" />
+    </section>
   )
 }
 

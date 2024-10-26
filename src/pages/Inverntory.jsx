@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import AllBanners from "../snippets/AllBanners";
 
 function Inverntory() {
   return (
-    <div>
-      Inverntory
-    </div>
-  )
+    <section>
+      <AllBanners name="Our Inventory" link="Inventory Page" />
+    </section>
+  );
 }
 
-export default Inverntory
+export default Inverntory;

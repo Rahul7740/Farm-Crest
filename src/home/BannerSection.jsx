@@ -3,7 +3,7 @@ import AllButtons from "../snippets/AllButtons";
 
 function BannerSection() {
   return (
-    <section className="h-[600px] md:h-[700px] lg:h-[809px] bg-[url('./assets/img/home-page-banner.png')] bg-cover bg-center bg-no-repeat bg-aksdjf flex items-center justify-center">
+    <section className="h-[600px] md:h-[700px] lg:h-[809px] bg-[url('./assets/img/home-page-banner.png')] bg-cover bg-center bg-no-repeat flex items-center justify-center">
       <div className="relative flex lg:block items-center flex-col">
         <div className="flex flex-col-reverse lg:flex-row items-center justify-center gap-[29px]">
           <h1 className="text-white text-[32px] leading-[42px] sm:text-[48px] sm:leading-[64px] md:text-[64px] md:leading-[86px] lg:text-[76px] lg:leading-[100px] xl:text-[92px] xl:leading-[124.11px] font-normal font-aa">

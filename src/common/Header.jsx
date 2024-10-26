@@ -56,7 +56,7 @@ function Header() {
           </a>
         </div>
       </div>
-      <div className="absolute left-2/4 -translate-x-2/4 top-full -translate-y-2/4 container">
+      <div className="absolute left-2/4 -translate-x-2/4 top-full -translate-y-2/4 container z-10">
         <div className="w-full flex items-center justify-between rounded-[60px] pr-4 sm:pr-3 bg-white overflow-hidden  ">
           <div className="bg-[#FFD13B] flex items-center justify-center max-w-[110px] md:max-w-[150px] w-full pt-[5px] pb-[6px]">
             <img
