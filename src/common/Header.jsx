@@ -81,17 +81,34 @@ function Header() {
             ))}
           </ul>
           <button
-            className={`flex xs:hidden items-center justify-center bg-[#FFD13B] p-[8px_10px]  rounded-[30px] relative`}
-            onClick={() => {
-              setMenu(!menu);
-            }}
+            className="flex xs:hidden flex-col gap-[6px] items-center justify-center bg-[#FFD13B] p-[8px_10px] rounded-[30px] relative"
+            onClick={() => setMenu(!menu)}
           >
-            <img
-              src={require(`../assets/svg/menu-icon.svg`).default}
-              alt="menu"
-            />
+            <span
+              className={`h-[3px] w-[25px] bg-[#222222] rounded transition-transform duration-300 ${
+                menu ? " translate-y-[9px] rotate-45" : ""
+              }`}
+            ></span>
+            <span
+              className={`h-[3px] w-[25px] bg-[#222222] rounded transition-opacity duration-300 ${
+                menu ? "opacity-0" : ""
+              }`}
+            ></span>
+            <span
+              className={`h-[3px] w-[25px] bg-[#222222] rounded transition-transform duration-300 ${
+                menu ? " -translate-y-[9px] -rotate-45" : ""
+              }`}
+            ></span>
           </button>
+
           <AllButtons name="Contact us" class=" hidden sm:flex" />
+        </div>
+        <div className={`${menu ? "flex":"hidden"} bg-white shadow-2xl p-[20px_10px] rounded-[8px] absolute w-[92%] top-20 right-[50%] translate-x-2/4  flex-col gap-1 items-start res-menu`}>
+              {
+                headerJson.map((item,index)=>(
+                  <NavLink to={item.to} key={index} onClick={()=>{setMenu(false)}} className={"bg-[#E5C499] rounded text-[#222222] w-full p-[5px_10px]"} >{item.name}</NavLink>
+                ))
+              }
         </div>
       </div>
     </header>

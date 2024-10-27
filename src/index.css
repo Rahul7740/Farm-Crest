@@ -111,7 +111,9 @@ li .active{
 }
 
 
-
+.res-menu .active{
+  background: #8f795c;
+}
 
 
 @media (max-width: 1024px) {
