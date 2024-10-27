@@ -1,7 +1,7 @@
 import React from "react";
 import AllButtons from "../snippets/AllButtons";
 
-function FooterBanner() {
+function HomeFooterBanner() {
   return (
     <section className="all-sections bg-[#EBE4D6]">
       <div className="container">
@@ -26,4 +26,4 @@ function FooterBanner() {
   );
 }
 
-export default FooterBanner;
+export default HomeFooterBanner;

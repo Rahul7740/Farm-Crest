@@ -1,0 +1,29 @@
+[
+  {
+    "img": "inverntor-card-img1.png",
+    "name": "Cocopeat Block",
+    "description": "High-quality, compressed cocopeat that expands with water. Ideal for large gardens and commercial applications.",
+    "form": "High-quality",
+    "stock": "Available",
+    "price": "$20 per block",
+    "bulk-Availability": true
+  },
+  {
+    "img": "inverntor-card-img2.png",
+    "name": "Cocopeat Loose",
+    "description": " Cocopeat infused with neem for natural pest control and soil improvement, ideal for organic gardens and farms",
+    "form": "High-quality",
+    "stock": "Unavailable",
+    "price": "$20 per block",
+    "bulk-Availability": true
+  },
+  {
+    "img": "inverntor-card-img3.png",
+    "name": "Neem Plus",
+    "description": "High-quality, compressed cocopeat that expands with water. Ideal for large gardens and commercial applications.",
+    "form": "High-quality",
+    "stock": "Available",
+    "price": "$20 per block",
+    "bulk-Availability": true
+  }
+]

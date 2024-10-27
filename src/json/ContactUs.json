@@ -1,0 +1,40 @@
+{
+  "contacts": [
+    {
+      "img": "contact-tel-img.svg",
+      "name": "Phone",
+      "link": "tel:+1234567890",
+      "title": "+123-456-7890"
+    },
+    {
+      "img": "contact-mail-img.svg",
+      "name": "Email",
+      "link": "mailto:info@cocopeat.com",
+      "title": "info@cocopeat.com"
+    },
+    {
+      "img": "contact-address-img.svg",
+      "name": "Address",
+      "link": "https://www.google.com/maps/place/123+Greenfield+Avenue,+Eco+City,+Country",
+      "title": "123 Greenfield Avenue, Eco City, Country"
+    }
+  ],
+  "followUS": [
+    {
+      "img": "facebook-icon.svg",
+      "link": "https://www.facebook.com/cocopeat"
+    },
+    {
+      "img": "twitter-icon.svg",
+      "link": "https://www.twitter.com/cocopeat"
+    },
+    {
+      "img": "instagram-icon.svg",
+      "link": "https://www.instagram.com/cocopeat"
+    },
+    {
+      "img": "contact-linkedin-icon.svg",
+      "link": "https://www.twitter.com/cocopeat"
+    }
+  ]
+}

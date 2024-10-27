@@ -57,9 +57,10 @@ function Header() {
         </div>
       </div>
       <div className="absolute left-2/4 -translate-x-2/4 top-full -translate-y-2/4 container z-10">
-        <div className="w-full flex items-center justify-between rounded-[60px] pr-4 sm:pr-3 bg-white overflow-hidden  ">
-          <div className="bg-[#FFD13B] flex items-center justify-center max-w-[110px] md:max-w-[150px] w-full pt-[5px] pb-[6px]">
+        <div className="w-full flex items-center justify-between rounded-[60px] pr-3 sm:pr-3 bg-white overflow-hidden  ">
+          <div className="bg-[#FFD13B] flex items-center justify-center max-w-[110px] md:max-w-[150px] h-full w-full pt-[5px] pb-[6px]">
             <img
+              className="sm:w-auto h-14 w-14 sm:h-auto"
               src={require(`../assets/svg/main-logo.svg`).default}
               alt="main-logo"
             />
@@ -80,7 +81,7 @@ function Header() {
             ))}
           </ul>
           <button
-            className={`flex xs:hidden items-center justify-center bg-[#FFD13B] p-[10px_10px]  rounded-[30px] relative`}
+            className={`flex xs:hidden items-center justify-center bg-[#FFD13B] p-[8px_10px]  rounded-[30px] relative`}
             onClick={() => {
               setMenu(!menu);
             }}

@@ -2,7 +2,7 @@ import React from "react";
 import BannerSection from "../home/BannerSection";
 import OurProducts from "../home/OurProducts";
 import WhyChooseUs from "../home/WhyChooseUs";
-import FooterBanner from "../home/FooterBanner";
+import HomeFooterBanner from "../home/HomeFooterBanner";
 
 function Home() {
   return (
@@ -10,7 +10,7 @@ function Home() {
       <BannerSection />
       <OurProducts />
       <WhyChooseUs />
-      <FooterBanner />
+      <HomeFooterBanner />
     </>
   );
 }
