@@ -6,11 +6,12 @@ function Footer() {
   return (
     <footer className="bg-[#E5C499] pt-[40px] md:pt-[60px] pb-[80px] md:pb-[136px]">
       <div className="container">
-        <img
-          src={require(`../assets/svg/footer-main-logo.svg`).default}
-          alt="main-logo"
-          className="mb-4"
-        />
+        <Link to={"/"} className="mb-4">
+          <img
+            src={require(`../assets/svg/footer-main-logo.svg`).default}
+            alt="main-logo"
+          />
+        </Link>
         <div className="mt-4 flex flex-col lg:flex-row items-start gap-6 lg:gap-[71.5px] xl:gap-[128px]">
           <div className="lg:max-w-[256px] w-full flex flex-col gap-2">
             <h3 className="lg:max-w-[174px] w-full text-[20px] leading-[32px] font-normal font-aa">
@@ -23,7 +24,10 @@ function Footer() {
           </div>
           <div className="flex flex-wrap lg:grid grid-cols-[1fr_auto_160px] items-start justify-start gap-6 md:gap-8 lg:gap-[71.5px]">
             {footerData.map((item, index) => (
-              <div key={index} className="flex flex-col items-start gap-4 sm:gap-5 lg:gap-[25px]">
+              <div
+                key={index}
+                className="flex flex-col items-start gap-4 sm:gap-5 lg:gap-[25px]"
+              >
                 <h4 className="text-[18px] sm:text-[20px] text-black leading-[24px] sm:leading-[26.98px] font-normal font-aa">
                   {item.heading}
                 </h4>

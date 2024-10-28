@@ -59,11 +59,13 @@ function Header() {
       <div className="absolute left-2/4 -translate-x-2/4 top-full -translate-y-2/4 container z-10">
         <div className="w-full flex items-center justify-between rounded-[60px] pr-3 sm:pr-3 bg-white overflow-hidden  ">
           <div className="bg-[#FFD13B] flex items-center justify-center max-w-[110px] md:max-w-[150px] h-full w-full md:pt-[5px] md:pb-[6px]">
-            <img
-              className="sm:w-auto h-14 w-14 sm:h-auto"
-              src={require(`../assets/svg/main-logo.svg`).default}
-              alt="main-logo"
-            />
+            <Link to={"/"}>
+              <img
+                className="sm:w-auto h-14 w-14 sm:h-auto"
+                src={require(`../assets/svg/main-logo.svg`).default}
+                alt="main-logo"
+              />
+            </Link>
           </div>
           <ul
             typeof="none"
@@ -100,8 +102,8 @@ function Header() {
               }`}
             ></span>
           </button>
-          <Link to={"/contact"}>
-            <AllButtons name="Contact us" class=" hidden sm:flex" />
+          <Link to={"/contact"} className="hidden sm:flex">
+            <AllButtons name="Contact us" />
           </Link>
         </div>
         <div

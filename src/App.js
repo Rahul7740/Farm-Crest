@@ -7,10 +7,12 @@ import Inverntory from "./pages/Inverntory";
 import Contact from "./pages/Contact";
 import Footer from "./common/Footer";
 import ProductDetail from "./pages/ProductDetail";
+import ScrollToTop from "./snippets/ScrollToTop";
 
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
