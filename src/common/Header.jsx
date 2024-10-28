@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import headerJson from "../json/menu-Links.json";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import AllButtons from "../snippets/AllButtons";
 
 function Header() {
   const [menu, setMenu] = useState(false);
 
   return (
-    <header className="bg-[#E5C499] pt-[15px] pb-[56px] relative">
+    <header className="bg-[#E5C499] pt-[10px] md:pt-[15px] pb-[40px] sm:pb-[56px] relative">
       <div className="container">
         <div className="flex items-center justify-center gap-3 sm:gap-2 md:gap-3 lg:gap-5">
           <a
@@ -58,7 +58,7 @@ function Header() {
       </div>
       <div className="absolute left-2/4 -translate-x-2/4 top-full -translate-y-2/4 container z-10">
         <div className="w-full flex items-center justify-between rounded-[60px] pr-3 sm:pr-3 bg-white overflow-hidden  ">
-          <div className="bg-[#FFD13B] flex items-center justify-center max-w-[110px] md:max-w-[150px] h-full w-full pt-[5px] pb-[6px]">
+          <div className="bg-[#FFD13B] flex items-center justify-center max-w-[110px] md:max-w-[150px] h-full w-full md:pt-[5px] md:pb-[6px]">
             <img
               className="sm:w-auto h-14 w-14 sm:h-auto"
               src={require(`../assets/svg/main-logo.svg`).default}
@@ -100,15 +100,29 @@ function Header() {
               }`}
             ></span>
           </button>
-
-          <AllButtons name="Contact us" class=" hidden sm:flex" />
+          <Link to={"/contact"}>
+            <AllButtons name="Contact us" class=" hidden sm:flex" />
+          </Link>
         </div>
-        <div className={`${menu ? "flex":"hidden"} bg-white shadow-2xl p-[20px_10px] rounded-[8px] absolute w-[92%] top-20 right-[50%] translate-x-2/4  flex-col gap-1 items-start res-menu`}>
-              {
-                headerJson.map((item,index)=>(
-                  <NavLink to={item.to} key={index} onClick={()=>{setMenu(false)}} className={"bg-[#E5C499] rounded text-[#222222] w-full p-[5px_10px]"} >{item.name}</NavLink>
-                ))
+        <div
+          className={`${
+            menu ? "z-30 scale-x-100 opacity-100" : "scale-x-50 opacity-0 -z-10"
+          } origin-right flex duration-200 transition-all xs:hidden bg-white shadow-2xl p-[20px_10px] rounded-[8px] absolute w-[92%] top-20 right-[50%] translate-x-2/4  flex-col gap-1 items-start res-menu`}
+        >
+          {headerJson.map((item, index) => (
+            <NavLink
+              to={item.to}
+              key={index}
+              onClick={() => {
+                setMenu(false);
+              }}
+              className={
+                "bg-[#E5C499] rounded text-[#222222] w-full p-[5px_10px]"
               }
+            >
+              {item.name}
+            </NavLink>
+          ))}
         </div>
       </div>
     </header>

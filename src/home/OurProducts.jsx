@@ -3,6 +3,7 @@ import SectionHeading from "../snippets/SectionHeading";
 import jsonData from "../json/OurProducts-cards.json";
 import exploreProductJson from "../json/Explore-Our-Products.json";
 import AllButtons from "../snippets/AllButtons";
+import { Link } from "react-router-dom";
 
 function OurProducts() {
   const [indexx, setIndexx] = useState(0);
@@ -79,14 +80,18 @@ function OurProducts() {
                     {item.name}
                   </h4>
                 </div>
-                <button className="border border-solid border-[#FFD13B] bg-transparent hover:bg-[#ffd13b9a] hover:border-[#ffd13b9a] hover:text-white transition-all duration-200 text-[#FFD13B] rounded-[16px] sm:rounded-[20px] text-[14px] sm:text-[16px] leading-[18px] sm:leading-[19.36px] p-[10px] sm:p-[12px] w-full">
+                <Link
+                  to={"/contact"}
+                  className="text-center border border-solid border-[#FFD13B] bg-transparent hover:bg-[#ffd13b9a] hover:border-[#ffd13b9a] hover:text-white transition-all duration-200 text-[#FFD13B] rounded-[16px] sm:rounded-[20px] text-[14px] sm:text-[16px] leading-[18px] sm:leading-[19.36px] p-[10px] sm:p-[12px] w-full"
+                >
                   {item.btn}
-                </button>
+                </Link>
               </div>
             ))}
           </div>
-
-          <AllButtons name="Contact us" class="max-w-[272px] w-full" />
+          <Link to={"/contact"}>
+            <AllButtons name="Contact us" class="max-w-[272px] w-full" />
+          </Link>
         </div>
       </div>
     </section>

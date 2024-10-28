@@ -1,5 +1,6 @@
 import React from "react";
 import AllButtons from "../snippets/AllButtons";
+import { Link } from "react-router-dom";
 
 function BannerSection() {
   return (
@@ -24,7 +25,9 @@ function BannerSection() {
           />
         </h2>
         <div className="flex lg:flex-row flex-col-reverse items-center justify-center gap-4 lg:gap-8 max-w-[636px] w-full relative left-0 lg:left-[25%] xl:left-[33%]">
-          <AllButtons name="Contact us" />
+          <Link to={"/contact"}>
+            <AllButtons name="Contact us" />
+          </Link>
           <span className="bg-white h-[1px] lg:h-[47px] lg:w-[1px] w-60 inline-block"></span>
           <p className="text-base font-normal text-white text-center lg:text-start pr-3 pl-3 lg:p-0">
             Discover the power of eco-friendly growing mediums designed to boost

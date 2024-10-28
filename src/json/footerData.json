@@ -9,7 +9,7 @@
       },
       {
         "name": "Products",
-        "link": "/",
+        "link": "/productDetail",
         "type": "Link"
       },
       {

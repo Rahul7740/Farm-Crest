@@ -1,0 +1,42 @@
+[
+    {
+        "first":"Electrical Conductivity",
+        "second":"< 0.50",
+        "third":">1.00"
+    },
+    {
+        "first":"PH",
+        "second":"5.8-6.8",
+        "third":"5.8-6.8"
+    },
+    {
+        "first":"Potassium",
+        "second":"3.24",
+        "third":"3.24"
+    },
+    {
+        "first":"Sodium",
+        "second":"5.24",
+        "third":"5.24"
+    },
+    {
+        "first":"Chlorine",
+        "second":"3.35",
+        "third":"3.35"
+    },
+    {
+        "first":"Manganese",
+        "second":"12.45",
+        "third":"12.45"
+    },
+    {
+        "first":"Air filled porosity %",
+        "second":"90",
+        "third":"90"
+    },
+    {
+        "first":"Water holding capacity",
+        "second":"100",
+        "third":"100"
+    }
+]

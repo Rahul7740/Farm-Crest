@@ -114,7 +114,12 @@ li .active{
 .res-menu .active{
   background: #8f795c;
 }
-
+.myTable tr:nth-child(even) td{
+  background-color: #DFD1B5 !important;
+}
+/* .myTable tr:nth-child(odd) td{
+  background-color: #EBE4D6 !important;
+} */
 
 @media (max-width: 1024px) {
   .all-sections {
